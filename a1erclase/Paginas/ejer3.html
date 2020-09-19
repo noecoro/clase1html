@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <p>Dejanos tu comentario</p>
+    <form method="get" action="">
+        <!-- los form tienen imputs no tienen cierre-->
+        <label for="mail">Mail</label>
+        <input type="mail" name "mail" placeholder="Ingrese su mail" requiered />
+        <br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name=" nombre" placeholder="Ingrese su nombre" required/>
+        <br>
+        <label for="fecha de nac">Fecha de Nac </label>
+        <input type="date" name="fecha de nac" placeholder="Ingrese su fecha de nac" />
+        <br>
+        <labelfor="comentario">Comentario</label>
+
+            <textarea name="comentario" placeholder="Ingrese su comentario"></textarea>
+            <br>
+            <!-- p escrib mucho text-->
+            <input type="radio" name="tipo" value="consulta" />Consulta
+            <input type="radio" name="tipo" value="error" />Error
+            <label>Tipo de cliente</label>
+            <select name="tipocliente">
+                <option value="full">Full</option>
+                <option value="especial">Especial</option>
+                <option value="basic">Basico</option>
+                <br>
+            </select>
+            <input type="submit" value="Enviar" />
+    </form>
+    <br>
+
+</body>
+
+</html>
